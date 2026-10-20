@@ -1,0 +1,16 @@
+[options]
+mode prove
+
+[engines]
+smtbmc
+
+[script]
+read -formal wrapper.v encoder.v pwm.v
+prep -top wrapper
+
+[files]
+wrapper.v
+properties.v
+../02-rgb-mixer/src/encoder.v
+../02-rgb-mixer/src/pwm.v
+

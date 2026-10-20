@@ -1,0 +1,14 @@
+# simulation outputs
+*.vcd
+*.fst
+*.vvp
+sim_build/
+results.xml
+__pycache__/
+*.pyc
+*.log
+# SymbiYosys work directories
+03-formal-timer/timer/
+04-formal-wrapper/properties/
+# OpenLane run directories
+runs/
